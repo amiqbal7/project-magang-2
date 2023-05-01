@@ -10,31 +10,31 @@ function Faq() {
 
   const cardIsi = [
     {
-      question: "Apa itu Perhimpunan Ahli Kesehatan Kerja Indonesia?",
+      question: "Apa dasar hukum pelaksanaan Tugas Belajar SDMK?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. nihil doloribus voluptate ea molestiae! Non quod, similique omnis maiores blanditiis voluptatem pariatur eaque aut quia praesentium accusantium, iusto, asperiores at.",
+        "Pemenkes No 28 tahun 2015 tentang Penyelenggaraan Pemberian Bantuan Tugas Belajar SDM Kesehatan.",
+    },
+    {
+      question: "Apa saja syarat-syarat untuk mendaftar tugas belajar?",
+      answer:
+        "Silahkan lihat di Pemenkes No 28 Tahun 2015 dan Surat edaran Tugas Belajar tahun berjalan.",
     },
     {
       question:
-        "Bagaimana saya menghubungi Perhimpunan Ahli Kesehatan Kerja Indonesia?",
+        "Kapan SK Bantuan Tugas Belajar Kemenkes terbit setiap tahunnya?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. nihil doloribus voluptate ea molestiae! Non quod, similique omnis maiores blanditiis voluptatem pariatur eaque aut quia praesentium accusantium, iusto, asperiores at.",
+        "SK Bantuan Tugas Belajar terbit sekitar bulan Oktober - November pada setiap tahunnya.",
+    },
+    {
+      question: "Terhitung mulai kapan SK Tugas Belajar berlaku?",
+      answer:
+        "SK Bantuan Tugas Belajar berlaku mulai tanggal 1 September setiap tahunnya.",
     },
     {
       question:
-        "Apa saja layanan dari Perhimpunan Ahli Kesehatan Kerja Indonesia?",
+        "Apa yang harus dilakukan peserta setelah ditetapkan SK Tugas Belajar?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. nihil doloribus voluptate ea molestiae! Non quod, similique omnis maiores blanditiis voluptatem pariatur eaque aut quia praesentium accusantium, iusto, asperiores at.",
-    },
-    {
-      question: "Mengapa saya harus menggunakan web PAKKI ini?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. nihil doloribus voluptate ea molestiae! Non quod, similique omnis maiores blanditiis voluptatem pariatur eaque aut quia praesentium accusantium, iusto, asperiores at.",
-    },
-    {
-      question: "Cara mendaftar web PAKKI",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. nihil doloribus voluptate ea molestiae! Non quod, similique omnis maiores blanditiis voluptatem pariatur eaque aut quia praesentium accusantium, iusto, asperiores at.",
+        "Bagi Peserta Daerah segera melaporkan SK Bantuan Tugas Belajar dari Direktorat jenderal Tenaga Kesehatan Kementerian Kesehatan ke Badan Pembina Kepegawaian di daerah masing-masing untuk dibuatkan SK Tugas Belajar, kemudian mengirimkan SK Tugas Belajar tersebut ke Direktorat Penyediaan Tenaga Kesehatan. Bagi yang ingin mengajukan biaya kedatangan segera menggirimkan berkas persyaratan ke Direktorat Penyediaan Tenaga Kesehatan dan tidak boleh melewati tahun anggaran berjalan.",
     },
   ];
 
