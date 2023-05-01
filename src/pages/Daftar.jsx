@@ -23,7 +23,7 @@ const Daftar = () => {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-16 lg:mx-auto">
+    <div className="mx-5 md:mx-16 max-w-6xl justify-center xl:mx-auto">
       <div className="my-16">
         <h1 className="text-xl font-semibold pb-3">
           Angkatan Tahun 2023 Gelombang 2
