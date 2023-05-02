@@ -4,7 +4,7 @@ const Tabel2 = () => {
   return (
     <div className="mx-auto py-4">
       <div className="">
-        <table className="w-full m-auto border-2 border-gray-600 leading-10 border-collapse">
+        <table className="w-full m-auto border-2 border-white leading-10 border-collapse">
           <thead className="bg-cyan-950 text-white font-bold">
             <tr className="">
               <th>No</th>
@@ -15,22 +15,22 @@ const Tabel2 = () => {
           </thead>
           <tbody className="text-center bg-slate-300 border  ">
             <tr>
-              <td>1</td>
-              <td>DIV/SI/Profesi</td>
-              <td>Biru</td>
-              <td>Biru</td>
+              <td className="border-2 border-white ">1</td>
+              <td className="border-2 border-white ">DIV/SI/Profesi</td>
+              <td className="border-2 border-white ">Biru</td>
+              <td className="border-2 border-white ">Biru</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>SII/Spesialis</td>
-              <td>Kuning</td>
-              <td>Kuning</td>
+              <td className="border-2 border-white ">2</td>
+              <td className="border-2 border-white ">SII/Spesialis</td>
+              <td className="border-2 border-white ">Kuning</td>
+              <td className="border-2 border-white ">Kuning</td>
             </tr>
             <tr>
-              <td>3</td>
-              <td>SIII</td>
-              <td>Merah</td>
-              <td>Merah</td>
+              <td className="border-2 border-white ">3</td>
+              <td className="border-2 border-white ">SIII</td>
+              <td className="border-2 border-white ">Merah</td>
+              <td className="border-2 border-white ">Merah</td>
             </tr>
           </tbody>
         </table>
