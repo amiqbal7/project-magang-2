@@ -74,7 +74,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 bg-cyan-950 justify-between drop-shadow-lg px-16 py-3 z-30">
+    <div className="sticky top-0 bg-cyan-950 justify-between drop-shadow-lg px-16 py-3 z-30 ">
       <div className="flex justify-between items-center w-full text-white">
         <div className="">
           <img

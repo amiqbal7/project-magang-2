@@ -5,9 +5,9 @@ const Tabel1 = () => {
     <div className="mx-auto py-4">
       {/* TABEL 1 */}
       <div className="">
-        <table className="w-full m-auto border-2 leading-10">
+        <table className="w-full m-auto border-2 border-gray-600 leading-10 border-collapse">
           <thead className="bg-cyan-950 text-white font-bold">
-            <tr>
+            <tr className="">
               <th rowSpan="2" className="p-1">
                 No
               </th>
@@ -20,7 +20,7 @@ const Tabel1 = () => {
               <th>Non DPTK</th>
             </tr>
           </thead>
-          <tbody className="text-center bg-slate-300  ">
+          <tbody className="text-center bg-slate-300 border  ">
             <tr>
               <td rowSpan="6">1</td>
               <td colSpan="4" className="p-3 font-semibold text-lg">

@@ -1,5 +1,5 @@
 import React from "react";
-import alur from "../../assets/alur2.jpg";
+import alur from "../../assets/alur.png";
 
 const Alur = () => {
   return (
