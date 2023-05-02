@@ -22,6 +22,7 @@ import SK from "./pages/Dokumen/SK";
 import SuratEdaran from "./pages/Dokumen/SuratEdaran";
 import TransportKedatangan from "./pages/Dokumen/TransportKedatangan";
 import NotFound from "./pages/NotFound";
+import News from "./pages/News";
 
 const App = () => {
   return (
@@ -49,6 +50,7 @@ const App = () => {
           <Route path="/SK" element={<SK />} />
           <Route path="/Surat_Edaran" element={<SuratEdaran />} />
           <Route path="/Transportasi_Kedatangan" element={<TransportKedatangan />} />
+          <Route path="/News" element={<News />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

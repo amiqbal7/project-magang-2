@@ -15,6 +15,9 @@ const Header = () => {
   const handleClickDaftar = (i) => {
     navigate(`/Daftar`);
   };
+  const handleClickNews = (i) => {
+    navigate(`/News`);
+  };
   return (
     <div className="lg:mt-[-68px] mt-[-51px] md:mt-[-68px]">
       <Swiper
@@ -53,7 +56,7 @@ const Header = () => {
                       </div>
                     </div>
                     <div>
-                      <button className="bg-transparent border-2 px-2 py-1 rounded-full text-white">{item.button}</button>
+                      <button className="bg-transparent border-2 px-2 py-1 rounded-full text-white" onClick={() => handleClickNews(Header.i)}>{item.button}</button>
                     </div>
                   </div>
                 </div>
@@ -74,7 +77,7 @@ const Header = () => {
           <div className="flex justify-center md:text-7xl text-4xl">
             <RiLoginBoxLine />
           </div>
-          <h1 className="md:text-xl text-center">LOGIN</h1>
+          <h1 className="md:text-xl text-center" >LOGIN</h1>
         </div>
       </div>
     </div>
