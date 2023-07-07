@@ -11,9 +11,9 @@ const InstitusiDipilih = () => {
   const numbers = [...Array(page + 1).keys()].slice(1);
 
   return (
-    <div className="mx-auto mb-10 p-10 h-screen">
-      <h1 className="text-3xl font-bold py-5 uppercase">
-        INSTITUSI PENDIDIKAN YANG BISA DIPILIH
+    <div className="mx-auto mb-10 p-10 ">
+      <h1 className="text-3xl font-bold py-5">
+        Institusi Yang Dipilih
       </h1>
       <div className="text-gray-5 00 pb-5 ">
         <p>

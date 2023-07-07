@@ -11,7 +11,7 @@ const Video = ({ embedId }) => (
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
-      className="mx-auto w-72 md:w-[500px] lg:w-[600px] h-64 lg:h-96"
+      className="mx-auto w-72 sm:w-[600px] h-64 lg:h-96"
     />
   </div>
 );
